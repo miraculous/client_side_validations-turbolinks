@@ -2,8 +2,8 @@
 require File.expand_path('../lib/client_side_validations/turbolinks/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Brian Cardarella"]
-  gem.email         = ["bcardarella@gmail.com"]
+  gem.authors       = ["Brian Cardarella", "Mikkel Blankholm"]
+  gem.email         = ["bcardarella@gmail.com", "mb@miraculous.dk"]
   gem.description   = %q{Turbolinks Plugin for ClientSideValidaitons}
   gem.summary       = %q{Turbolinks Plugin for ClientSideValidations}
   gem.homepage      = 'https://github.com/dockyard/client_side_validations-turbolinks'
@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.version       = ClientSideValidations::Turbolinks::VERSION
 
   gem.add_dependency 'client_side_validations', '~> 3.2.0'
-  gem.add_dependency 'turbolinks', '~> 1.1.1'
+  gem.add_dependency 'turbolinks', '~> 1.3.0'
 
   gem.add_development_dependency 'rails', '~> 3.2.0'
   gem.add_development_dependency 'mocha'
